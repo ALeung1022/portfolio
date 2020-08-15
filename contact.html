@@ -7,18 +7,31 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   </head>
   <body>
-    <!-- Bootstrap grid -->
-    <div class="row">
-        <div class="col-*-*"></div>
-        <div class="col-*-*"></div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Anthony Leung</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="/index.html">Home/About</a></li>
+          <li class="active"><a href="/contact.html">Contact</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
+        </ul>
+        
       </div>
-      <div class="row">
-        <div class="col-*-*"></div>
-        <div class="col-*-*"></div>
-        <div class="col-*-*"></div>
+    </nav>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
       </div>
-      <div class="row">
-        ...
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
       </div>
         
         </body>
